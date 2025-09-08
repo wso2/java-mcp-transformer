@@ -20,6 +20,9 @@ package org.wso2.carbon.mcp.transformer.model;
 
 import org.wso2.carbon.mcp.transformer.exception.SchemaMappingException;
 
+/**
+ * Interface for parsing schema definitions and generating SchemaMapping objects.
+ */
 public interface SchemaMappingParser {
 
     /**

@@ -1,5 +1,9 @@
 package org.wso2.carbon.mcp.transformer.util;
 
+
+/**
+ * ResolverConstants holds constant values used in request resolution.
+ */
 public class ResolverConstants {
     public static String PROPERTIES_KEY = "properties";
     public static String REQUIRED_KEY = "required";
