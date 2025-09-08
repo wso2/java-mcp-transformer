@@ -34,6 +34,7 @@ public class RequestResolver {
      * Resolves the input parameters based on the provided schema JSON.
      * @param schema        schema to be parsed
      * @param inputArguments   request arguments
+     * @throws MCPRequestResolverException if an error occurs during resolution
      * @return resolved request
      */
     public ResolvedRequest resolve(Object schema, Map<String, Object> inputArguments) throws MCPRequestResolverException {
