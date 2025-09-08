@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "path_id": {
+      "type": "string",
+      "format": "string",
+      "description": "custom path param"
+    },
+    "query_query": {
+      "type": "string",
+      "format": "string",
+      "description": "custom query param"
+    },
+    "header_OrgID": {
+      "type": "string",
+      "format": "string",
+      "description": "custom header"
+    }
+  },
+  "required": [
+    "path_id"
+  ]
+}

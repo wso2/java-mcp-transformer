@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "contentType": "application/json"
+    }
+  },
+  "required": [
+    "path_id"
+  ]
+}
